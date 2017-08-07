@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Mimosa_Example' do
+  pod 'Mimosa', :path => '../'
+
+  target 'Mimosa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
