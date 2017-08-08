@@ -1,9 +1,11 @@
 # Mimosa
 
-[![CI Status](http://img.shields.io/travis/pducks32/Mimosa.svg?style=flat)](https://travis-ci.org/pducks32/Mimosa)
-[![Version](https://img.shields.io/cocoapods/v/Mimosa.svg?style=flat)](http://cocoapods.org/pods/Mimosa)
-[![License](https://img.shields.io/cocoapods/l/Mimosa.svg?style=flat)](http://cocoapods.org/pods/Mimosa)
-[![Platform](https://img.shields.io/cocoapods/p/Mimosa.svg?style=flat)](http://cocoapods.org/pods/Mimosa)
+Swift wrapper for Sturfee's AI Server.
+
+## Name
+I was thinking the other day how great a name Mimosa is. Then I decided
+I would name this project after the "smartest plant" because the AI server is
+smart. It turns out it is Mimosa Piuka and so that seemed creepy and otherworldly. Hence the name stuck.
 
 ## Example
 
@@ -22,8 +24,8 @@ pod "Mimosa"
 
 ## Author
 
-pducks32, git@patrickmetcalfe.com
+Patrick Metcalfe, Sturfee, patrickm@sturfee.com
 
 ## License
 
-Mimosa is available under the MIT license. See the LICENSE file for more info.
+Mimosa is trademark of Sturfee LLC.
