@@ -1,0 +1,6 @@
+framework module Pods_Mimosa_Example {
+  umbrella header "Pods-Mimosa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

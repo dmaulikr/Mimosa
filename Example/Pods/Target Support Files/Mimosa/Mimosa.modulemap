@@ -1,0 +1,6 @@
+framework module Mimosa {
+  umbrella header "Mimosa-umbrella.h"
+
+  export *
+  module * { export * }
+}

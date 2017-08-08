@@ -1,0 +1,27 @@
+{
+  "name": "Mimosa",
+  "version": "0.1.0",
+  "summary": "A short description of Mimosa.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pducks32/Mimosa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pducks32": "git@patrickmetcalfe.com"
+  },
+  "source": {
+    "git": "https://github.com/pducks32/Mimosa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Mimosa/Classes/**/*",
+  "dependencies": {
+    "Starscream": [
+      "~> 2.0.3"
+    ]
+  }
+}

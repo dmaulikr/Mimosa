@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071A1C8CD2B3051D3F43D90FF95F1133 /* Pods-Mimosa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E0787D2ED6CCBAC4A88FCA366C47C2 /* Pods-Mimosa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D8844EDC3EFAFEA91DFE123BC5CB8A /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DFA82B45E6CA4DBC3E9BD842F91C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		110DB9063BA2F8F73499925A594B70C2 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1858B6822AEDB078F249B14B1DDACF58 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E203CFE1196A91623F46250DBFBCB4D /* Mimosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F61566707BD898276F85479CCCF8D0 /* Mimosa.swift */; };
+		2CCE43DBC8D55619D6521066839E6726 /* Mimosa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BACE0BCEC0ADDACFED6196CB3A404F37 /* Mimosa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C1BC03B085CB66DF22E30C38CBD4C8 /* Pods-Mimosa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E3B98DD4E1FCAA3BC6191825E309FB /* Pods-Mimosa_Tests-dummy.m */; };
+		4DCC8616745568CF435E9D48C0BB4DDC /* Pods-Mimosa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B525804E481DEF41DEA3E7C1D22904C /* Pods-Mimosa_Example-dummy.m */; };
+		528D3CF4932C629A6B93E250C833D4E6 /* Mimosa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5FBD5B4F6C1F259FF454B2757F75 /* Mimosa-dummy.m */; };
+		584B4A47DA21B6689C2E44806E18E18D /* Pods-Mimosa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7681B4A9B7635B31CD730FE589C80790 /* Pods-Mimosa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE9FA05908581AC2F3B6CFD06D097A8 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */; };
+		AFE1A49DC5D9233E70423C5D920FE42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		C1907998CE7D394A34EF31203C9FB9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		ECECA2DE20441601C16A4FF738D59F81 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */; };
+		F11E28D431758410C4D725A31876DD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D09D2ADF17180D2CA368A07C79AB585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B2C39A5FF8272E3CF155D054A69A77;
+			remoteInfo = Starscream;
+		};
+		731C62624EF2457D3B7A01BD77A5DE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C502ACAFB9CBA99C5B34F08E8B453F;
+			remoteInfo = Mimosa;
+		};
+		BE741DE0F324CDE944FAA1607503F8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B2C39A5FF8272E3CF155D054A69A77;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0211609D7F82609D3441656399C1E0CB /* Mimosa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mimosa.framework; path = Mimosa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F61566707BD898276F85479CCCF8D0 /* Mimosa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mimosa.swift; sourceTree = "<group>"; };
+		0E903740053F1A1A9112A0F21C7199CB /* Mimosa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mimosa-prefix.pch"; sourceTree = "<group>"; };
+		0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E127A96F82A273728B5E2FCE4E453B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B525804E481DEF41DEA3E7C1D22904C /* Pods-Mimosa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mimosa_Example-dummy.m"; sourceTree = "<group>"; };
+		2C083419A6D076B8A7F568F7184E998D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412C5FBD5B4F6C1F259FF454B2757F75 /* Mimosa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mimosa-dummy.m"; sourceTree = "<group>"; };
+		48E0787D2ED6CCBAC4A88FCA366C47C2 /* Pods-Mimosa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mimosa_Example-umbrella.h"; sourceTree = "<group>"; };
+		48F7CDF2B5396A449FA9E7AF18585EDB /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		4C2A032AC7C6FE6A437F07DD833D7F9B /* Pods-Mimosa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Mimosa_Tests.modulemap"; sourceTree = "<group>"; };
+		4FA740C068CDE13ABA1300FD676DD44C /* Pods-Mimosa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimosa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		54E3B98DD4E1FCAA3BC6191825E309FB /* Pods-Mimosa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mimosa_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B220DE9811768A33367A37972807704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B36FB03D3FBCB54F09D105B9FF5A70B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5FE34B865A36DF73DB57EC7566E151 /* Pods-Mimosa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimosa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		631A24B526970D4021EF883F1897CCE4 /* Pods-Mimosa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Mimosa_Example.modulemap"; sourceTree = "<group>"; };
+		69AFFD3FA4B4863CCCE256151E89ECB7 /* Pods-Mimosa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimosa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6EDD83F29C359E28C8665B74080451E0 /* Pods-Mimosa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mimosa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7681B4A9B7635B31CD730FE589C80790 /* Pods-Mimosa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mimosa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		8ECB4D095CCD38145DEBBC5A62CCCB2B /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902507A96FEE30E3658AEAE83DD7BCA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D634312083519FC0F888463FD06DDA /* Pods-Mimosa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimosa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		A9EF7C0F3FB11D2EAB50709D42F28F23 /* Mimosa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mimosa.xcconfig; sourceTree = "<group>"; };
+		B07D23CCA061200BA6173A5281BC1CD1 /* Pods-Mimosa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimosa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B525A2F4BA76DC0935D750D55F4C694B /* Pods-Mimosa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimosa_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BACE0BCEC0ADDACFED6196CB3A404F37 /* Mimosa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mimosa-umbrella.h"; sourceTree = "<group>"; };
+		BF678ADE5E6DC3013DAE87E444B5CF5F /* Pods-Mimosa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mimosa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA7F002654D6A1E1F376307409574FDB /* Pods-Mimosa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimosa_Example-resources.sh"; sourceTree = "<group>"; };
+		CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		D20D17511CA477D891AEC878F92AEE6E /* Mimosa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Mimosa.modulemap; sourceTree = "<group>"; };
+		E01D95306EFFF2043B92CAA6A0A4BCEA /* Pods-Mimosa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mimosa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E01F69ECB170070E118321B6823F0B3B /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
+		E53645B9BF92D1387E05844A1797A806 /* Pods-Mimosa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimosa_Tests-resources.sh"; sourceTree = "<group>"; };
+		EC66B2D578AE42BA75F1C09A55DD831E /* Pods_Mimosa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mimosa_Tests.framework; path = "Pods-Mimosa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		F7725C6D11AA62DBD4715FA811FD23DD /* Pods-Mimosa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mimosa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F96ACCF7093A97588779CF8CE506E165 /* Pods_Mimosa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mimosa_Example.framework; path = "Pods-Mimosa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107CB1608EC8104E3DEEEBA90EE8E8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE1A49DC5D9233E70423C5D920FE42F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835555B96C4680BF5D260509F02AF5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E28D431758410C4D725A31876DD87 /* Foundation.framework in Frameworks */,
+				ECECA2DE20441601C16A4FF738D59F81 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDF561C29259289CED606833A0393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1907998CE7D394A34EF31203C9FB9D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B23C76869BB597394FEA113C8C919F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFA82B45E6CA4DBC3E9BD842F91C64A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1010A70BFFFCC5E48DDA7A3D3BA5977B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				902507A96FEE30E3658AEAE83DD7BCA9 /* Info.plist */,
+				E01F69ECB170070E118321B6823F0B3B /* Starscream.modulemap */,
+				F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */,
+				82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */,
+				48F7CDF2B5396A449FA9E7AF18585EDB /* Starscream-prefix.pch */,
+				CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		17C9D28CFFDC5859315FD43AF44C6A4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				461A77B7C486D3289DEBE3BD26970338 /* Pods-Mimosa_Example */,
+				793C8383BB3B9FBC62B5683549FF75F5 /* Pods-Mimosa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23038C84A4FDF6D5FA5D6DF6E682038B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4B64A4BD04D48ED6890B34587CE8 /* Mimosa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30A17C337B294F58F8DF168016A1A33E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05F61566707BD898276F85479CCCF8D0 /* Mimosa.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		461A77B7C486D3289DEBE3BD26970338 /* Pods-Mimosa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B36FB03D3FBCB54F09D105B9FF5A70B /* Info.plist */,
+				631A24B526970D4021EF883F1897CCE4 /* Pods-Mimosa_Example.modulemap */,
+				F7725C6D11AA62DBD4715FA811FD23DD /* Pods-Mimosa_Example-acknowledgements.markdown */,
+				6EDD83F29C359E28C8665B74080451E0 /* Pods-Mimosa_Example-acknowledgements.plist */,
+				2B525804E481DEF41DEA3E7C1D22904C /* Pods-Mimosa_Example-dummy.m */,
+				69AFFD3FA4B4863CCCE256151E89ECB7 /* Pods-Mimosa_Example-frameworks.sh */,
+				CA7F002654D6A1E1F376307409574FDB /* Pods-Mimosa_Example-resources.sh */,
+				48E0787D2ED6CCBAC4A88FCA366C47C2 /* Pods-Mimosa_Example-umbrella.h */,
+				97D634312083519FC0F888463FD06DDA /* Pods-Mimosa_Example.debug.xcconfig */,
+				B07D23CCA061200BA6173A5281BC1CD1 /* Pods-Mimosa_Example.release.xcconfig */,
+			);
+			name = "Pods-Mimosa_Example";
+			path = "Target Support Files/Pods-Mimosa_Example";
+			sourceTree = "<group>";
+		};
+		66516FC77F52D51176FF5067F0A78173 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B220DE9811768A33367A37972807704 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		793C8383BB3B9FBC62B5683549FF75F5 /* Pods-Mimosa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19E127A96F82A273728B5E2FCE4E453B /* Info.plist */,
+				4C2A032AC7C6FE6A437F07DD833D7F9B /* Pods-Mimosa_Tests.modulemap */,
+				E01D95306EFFF2043B92CAA6A0A4BCEA /* Pods-Mimosa_Tests-acknowledgements.markdown */,
+				BF678ADE5E6DC3013DAE87E444B5CF5F /* Pods-Mimosa_Tests-acknowledgements.plist */,
+				54E3B98DD4E1FCAA3BC6191825E309FB /* Pods-Mimosa_Tests-dummy.m */,
+				B525A2F4BA76DC0935D750D55F4C694B /* Pods-Mimosa_Tests-frameworks.sh */,
+				E53645B9BF92D1387E05844A1797A806 /* Pods-Mimosa_Tests-resources.sh */,
+				7681B4A9B7635B31CD730FE589C80790 /* Pods-Mimosa_Tests-umbrella.h */,
+				4FA740C068CDE13ABA1300FD676DD44C /* Pods-Mimosa_Tests.debug.xcconfig */,
+				5D5FE34B865A36DF73DB57EC7566E151 /* Pods-Mimosa_Tests.release.xcconfig */,
+			);
+			name = "Pods-Mimosa_Tests";
+			path = "Target Support Files/Pods-Mimosa_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				23038C84A4FDF6D5FA5D6DF6E682038B /* Development Pods */,
+				C6C6CF85326A60B112CC4A77BAD281D7 /* Frameworks */,
+				BB73C13E6777F550D73CA03B0373E32B /* Pods */,
+				D49086AD0BCE22BEE9AA4F692EF2F2C5 /* Products */,
+				17C9D28CFFDC5859315FD43AF44C6A4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A20C043EFD9E9315B6C5820C2D25199F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C083419A6D076B8A7F568F7184E998D /* Info.plist */,
+				D20D17511CA477D891AEC878F92AEE6E /* Mimosa.modulemap */,
+				A9EF7C0F3FB11D2EAB50709D42F28F23 /* Mimosa.xcconfig */,
+				412C5FBD5B4F6C1F259FF454B2757F75 /* Mimosa-dummy.m */,
+				0E903740053F1A1A9112A0F21C7199CB /* Mimosa-prefix.pch */,
+				BACE0BCEC0ADDACFED6196CB3A404F37 /* Mimosa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mimosa";
+			sourceTree = "<group>";
+		};
+		BB73C13E6777F550D73CA03B0373E32B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2857A1C48D4AA2872EA99006508E519 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDDB4B64A4BD04D48ED6890B34587CE8 /* Mimosa */ = {
+			isa = PBXGroup;
+			children = (
+				C0BE278E97E11A216988D5F241E9BD07 /* Mimosa */,
+				A20C043EFD9E9315B6C5820C2D25199F /* Support Files */,
+			);
+			name = Mimosa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0BE278E97E11A216988D5F241E9BD07 /* Mimosa */ = {
+			isa = PBXGroup;
+			children = (
+				30A17C337B294F58F8DF168016A1A33E /* Classes */,
+			);
+			name = Mimosa;
+			path = Mimosa;
+			sourceTree = "<group>";
+		};
+		C2857A1C48D4AA2872EA99006508E519 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */,
+				A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */,
+				1010A70BFFFCC5E48DDA7A3D3BA5977B /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		C6C6CF85326A60B112CC4A77BAD281D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */,
+				66516FC77F52D51176FF5067F0A78173 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49086AD0BCE22BEE9AA4F692EF2F2C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0211609D7F82609D3441656399C1E0CB /* Mimosa.framework */,
+				F96ACCF7093A97588779CF8CE506E165 /* Pods_Mimosa_Example.framework */,
+				EC66B2D578AE42BA75F1C09A55DD831E /* Pods_Mimosa_Tests.framework */,
+				8ECB4D095CCD38145DEBBC5A62CCCB2B /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23EB6B84AE15A6649D1E2347E33FA90B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCE43DBC8D55619D6521066839E6726 /* Mimosa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD4EC012E6A506AFA903A085BD534F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A1C8CD2B3051D3F43D90FF95F1133 /* Pods-Mimosa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AD837A3CB1E89A475A1CA3865735FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B4A47DA21B6689C2E44806E18E18D /* Pods-Mimosa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF7896EDB8D912ED1401FBCE5BEF644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D8844EDC3EFAFEA91DFE123BC5CB8A /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61B2C39A5FF8272E3CF155D054A69A77 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C34E7F576737C9A654E17889BDA197 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				3CD90D8F69B2085A6D28C090F149C113 /* Sources */,
+				95FDF561C29259289CED606833A0393A /* Frameworks */,
+				BBF7896EDB8D912ED1401FBCE5BEF644 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 8ECB4D095CCD38145DEBBC5A62CCCB2B /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62C502ACAFB9CBA99C5B34F08E8B453F /* Mimosa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445F7FAA5A7E2BA5B30180C1FF5EC05A /* Build configuration list for PBXNativeTarget "Mimosa" */;
+			buildPhases = (
+				1EB63E43210E4F09141252D609158282 /* Sources */,
+				835555B96C4680BF5D260509F02AF5B8 /* Frameworks */,
+				23EB6B84AE15A6649D1E2347E33FA90B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6BCC019A30C74AC4CBD454241C5985 /* PBXTargetDependency */,
+			);
+			name = Mimosa;
+			productName = Mimosa;
+			productReference = 0211609D7F82609D3441656399C1E0CB /* Mimosa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B8EAF701F919C840ABBEA02D1752522 /* Pods-Mimosa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99332407D83D443A99195B0F2A8FBD6 /* Build configuration list for PBXNativeTarget "Pods-Mimosa_Example" */;
+			buildPhases = (
+				98357843CBBE562A4346F02F67928254 /* Sources */,
+				A3B23C76869BB597394FEA113C8C919F /* Frameworks */,
+				35CD4EC012E6A506AFA903A085BD534F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C5C609B41ACA8D93ABC926F9F3DF77 /* PBXTargetDependency */,
+				E54D43E6F34CFAE4D4CEF8125066B149 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mimosa_Example";
+			productName = "Pods-Mimosa_Example";
+			productReference = F96ACCF7093A97588779CF8CE506E165 /* Pods_Mimosa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E409A181830A325EA7A3F6C928BC86C1 /* Pods-Mimosa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DE653DEC0425477BFED56B4AA862AC /* Build configuration list for PBXNativeTarget "Pods-Mimosa_Tests" */;
+			buildPhases = (
+				D8DFE5DE897ED9F4B3B464F3D99587DE /* Sources */,
+				107CB1608EC8104E3DEEEBA90EE8E8EA /* Frameworks */,
+				B3AD837A3CB1E89A475A1CA3865735FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Mimosa_Tests";
+			productName = "Pods-Mimosa_Tests";
+			productReference = EC66B2D578AE42BA75F1C09A55DD831E /* Pods_Mimosa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D49086AD0BCE22BEE9AA4F692EF2F2C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C502ACAFB9CBA99C5B34F08E8B453F /* Mimosa */,
+				7B8EAF701F919C840ABBEA02D1752522 /* Pods-Mimosa_Example */,
+				E409A181830A325EA7A3F6C928BC86C1 /* Pods-Mimosa_Tests */,
+				61B2C39A5FF8272E3CF155D054A69A77 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EB63E43210E4F09141252D609158282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D3CF4932C629A6B93E250C833D4E6 /* Mimosa-dummy.m in Sources */,
+				1E203CFE1196A91623F46250DBFBCB4D /* Mimosa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD90D8F69B2085A6D28C090F149C113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110DB9063BA2F8F73499925A594B70C2 /* SSLSecurity.swift in Sources */,
+				6FE9FA05908581AC2F3B6CFD06D097A8 /* Starscream-dummy.m in Sources */,
+				1858B6822AEDB078F249B14B1DDACF58 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98357843CBBE562A4346F02F67928254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCC8616745568CF435E9D48C0BB4DDC /* Pods-Mimosa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DFE5DE897ED9F4B3B464F3D99587DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C1BC03B085CB66DF22E30C38CBD4C8 /* Pods-Mimosa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72C5C609B41ACA8D93ABC926F9F3DF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mimosa;
+			target = 62C502ACAFB9CBA99C5B34F08E8B453F /* Mimosa */;
+			targetProxy = 731C62624EF2457D3B7A01BD77A5DE26 /* PBXContainerItemProxy */;
+		};
+		AB6BCC019A30C74AC4CBD454241C5985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 61B2C39A5FF8272E3CF155D054A69A77 /* Starscream */;
+			targetProxy = BE741DE0F324CDE944FAA1607503F8C8 /* PBXContainerItemProxy */;
+		};
+		E54D43E6F34CFAE4D4CEF8125066B149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 61B2C39A5FF8272E3CF155D054A69A77 /* Starscream */;
+			targetProxy = 4D09D2ADF17180D2CA368A07C79AB585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19BD6000378E751023D32614567A1054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07D23CCA061200BA6173A5281BC1CD1 /* Pods-Mimosa_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mimosa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mimosa_Example/Pods-Mimosa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mimosa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B59D4C23E8A12CD8A041D9334E4594F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA740C068CDE13ABA1300FD676DD44C /* Pods-Mimosa_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mimosa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mimosa_Tests/Pods-Mimosa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mimosa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3356AEB0385B8479CF77F26E5FF5F2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D634312083519FC0F888463FD06DDA /* Pods-Mimosa_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mimosa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mimosa_Example/Pods-Mimosa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mimosa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FDB7F6832E1C78270CD5B504F0EFFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5FE34B865A36DF73DB57EC7566E151 /* Pods-Mimosa_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mimosa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mimosa_Tests/Pods-Mimosa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mimosa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A46F794529A4C2A565AA682792B5AB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EF7C0F3FB11D2EAB50709D42F28F23 /* Mimosa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mimosa/Mimosa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mimosa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mimosa/Mimosa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mimosa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D494DF6863593DC3DB8FBB7231D696C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFBA99D00C0CE17571CD82D8E1F3F6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE63A9FE6DA82F3BD9D8DE38CD2777D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EF7C0F3FB11D2EAB50709D42F28F23 /* Mimosa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mimosa/Mimosa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mimosa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mimosa/Mimosa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mimosa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445F7FAA5A7E2BA5B30180C1FF5EC05A /* Build configuration list for PBXNativeTarget "Mimosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46F794529A4C2A565AA682792B5AB33 /* Debug */,
+				FE63A9FE6DA82F3BD9D8DE38CD2777D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C34E7F576737C9A654E17889BDA197 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA99D00C0CE17571CD82D8E1F3F6E1 /* Debug */,
+				D494DF6863593DC3DB8FBB7231D696C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DE653DEC0425477BFED56B4AA862AC /* Build configuration list for PBXNativeTarget "Pods-Mimosa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B59D4C23E8A12CD8A041D9334E4594F /* Debug */,
+				7FDB7F6832E1C78270CD5B504F0EFFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99332407D83D443A99195B0F2A8FBD6 /* Build configuration list for PBXNativeTarget "Pods-Mimosa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3356AEB0385B8479CF77F26E5FF5F2C0 /* Debug */,
+				19BD6000378E751023D32614567A1054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

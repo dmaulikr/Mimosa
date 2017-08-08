@@ -1,0 +1,19 @@
+PODS:
+  - Mimosa (0.1.0):
+    - Starscream (~> 2.0.3)
+  - Starscream (2.0.4)
+
+DEPENDENCIES:
+  - Mimosa (from `../`)
+
+EXTERNAL SOURCES:
+  Mimosa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mimosa: 630e72e2c30df727f02958ad1239b7a09835044e
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+
+PODFILE CHECKSUM: cc8bfea1cd1130d460662f39f9e376a1f1f52569
+
+COCOAPODS: 1.2.1
